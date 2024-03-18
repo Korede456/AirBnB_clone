@@ -61,15 +61,19 @@ ul {
   border-radius: 4px;
   position: absolute;
   top: 172px;
-  padding-top: 11px;
-	padding-bottom: 11px;
-	padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom:30px;
+  padding-left: 30px;
+  flex-direction: column;
+}
+.popover:first {
+  gap: 20px;
 }
 
 .locations:hover .popover {
-  display: inline-block;
+  display: flex;
 }
 
 .amenities:hover .popover {
-  display: inline-block;
+  display: flex;
 }
