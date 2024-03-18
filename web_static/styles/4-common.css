@@ -15,8 +15,7 @@ body {
   align-items: center;
 }
 .container {
-  width: 82%;
+  width: 80%;
   max-width: 1000px;
-  min-width: none;
   margin: 30px auto;
 }

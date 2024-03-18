@@ -31,6 +31,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  position: relative;
 }
 .filters .locations {
   border-right: 1px solid #dddddd;
@@ -56,17 +57,17 @@ ul {
   list-style-type: none;
   display: none;
   background-color: #fafafa;
-  width: 16%;
+  width: 100%;
   border: 1px solid #dddddd;
   border-radius: 4px;
   position: absolute;
-  top: 172px;
+  top: 70px;
   padding-top: 30px;
   padding-bottom:30px;
   padding-left: 30px;
   flex-direction: column;
 }
-.popover:first {
+.popover {
   gap: 20px;
 }
 
