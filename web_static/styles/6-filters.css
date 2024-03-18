@@ -24,7 +24,7 @@
 }
 
 .filters .locations,
-.filters .amenities {
+.filters .amenitie {
   height: 100%;
   width: 25%;
   display: flex;
@@ -38,12 +38,12 @@
 }
 
 .locations h3,
-.amenities h3 {
+.amenitie h3 {
   font-weight: 600;
   padding-left: 30px;
 }
 .locations h4,
-.amenities h4 {
+.amenitie h4 {
   font-weight: 400;
   font-size: 14px;
   padding-left: 10%;
@@ -73,8 +73,10 @@ ul {
 
 .locations:hover .popover {
   display: flex;
+  z-index: 1;
 }
 
-.amenities:hover .popover {
+.amenitie:hover .popover {
   display: flex;
+  z-index: 1;
 }
