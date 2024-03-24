@@ -1,1 +1,0 @@
-This  is a static web page for my AirBnB_clone site
